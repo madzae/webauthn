@@ -1,0 +1,11 @@
+CREATE TABLE `registrations` (
+  `id` int(11) NOT NULL,
+  `rpName` varchar(255) DEFAULT NULL,
+  `rpId` varchar(255) DEFAULT NULL,
+  `userId` varchar(255) DEFAULT NULL,
+  `userName` varchar(255) DEFAULT NULL,
+  `userDisplayName` varchar(255) DEFAULT NULL,
+  `challenge` varchar(255) DEFAULT NULL,
+  `credentialId` varchar(255) DEFAULT NULL,
+  `webauthnID` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
